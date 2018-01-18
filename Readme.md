@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Роман Калашников](https://up.htmlacademy.ru/adaptive/13/user/461047).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Ганин](https://htmlacademy.ru/profile/id195773).
 
 ---
 
