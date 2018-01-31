@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Кэт энерджи</title>
 </head>
-<body>
+<body class="page">
 	<header class="header">
 		<a href="#" class="logo">
 			<img src="http://placehold.it/33x38" alt="Cat Energy">
@@ -30,74 +30,152 @@
 		</ul><!-- /.menu -->
 	</header><!-- /.header -->
 
-	<main class="maincontent">
+	<main>
+		<div class="page__wrapper">
+			<h1 class="heading heading_size_l">Подбор программы</h1>
+			<h4 class="heading heading_size_xs">Заполните анкету и мы подберем программу питания для вашего кота</h4>
+		</div>
 		<form action="#" class="form">
 			<fieldset class="form__fieldset">
-				<h1 class="heading heading_size_l">Подбор программы</h1>
-				<h4 class="heading heading_size_xs">Заполните анкету и мы подберем программу питания для вашего кота</h4>
-			
-				<div class="form__group">
+				<span class="input">
 					<label>Имя:*</label>
-					<span class="input">
-						<span class="input__box">
-							<input class="input__control" type="text" placeholder="Барсик">
-						</span>	
-					</span>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="Барсик">
+					</span>	
+				</span>
 					
-				</div>
-				<div class="form__group">
+				<span class="input">
 					<label>Вес (кг):*</label>
-					<span class="input">
-						<span class="input__box">
-							<input class="input__control" type="text" placeholder="7">
-						</span>	
-					</span>
-				</div>
-				<div class="form__group">
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="7">
+					</span>	
+				</span>
+				
+				<span class="input">
 					<label>Возраст (лет):</label>
-					<span class="input">
-						<span class="input__box">
-							<input class="input__control" type="text" placeholder="7">
-						</span>	
-					</span>
-				</div>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="7">
+					</span>	
+				</span>
 			</fieldset>
 
-			
+			<fieldset class="form__fieldset">	
+				<span class="radio-group">		
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="slimming">
+						</span>
+						<span class="radio__text">
+							Похудение
+						</span>	
+					</label>
 
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="gain">
+						</span>
+						<span class="radio__text">
+							Набор массы
+						</span>	
+					</label>
 
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="dontknow">
+						</span>
+						<span class="radio__text">
+							Не знаю (Нужен ваш совет)
+						</span>	
+					</label>
+				</span>
+			</fieldset>
 
-			<div class="form__group">			
-				<label>
-					<span class="form__indicator form__indicator_radio"></span>
-					<input class="input input_radio" type="radio" name="purpose" value="slimming">
-					Похудение
-				</label>
+			<div class="form__heading">
+				<h3 class="heading heading_size_m">Контактные данные (владельца кота)</h3>
+				<div class="form__greenline"></div>
 			</div>
-			<div class="form__group">			
-				<label>
-					<span class="form__indicator form__indicator_radio"></span>
-					<input class="input input_radio" type="radio" name="purpose" value="gain">
-					Набор массы
-				</label>
+
+			<fieldset class="form__fieldset form__fieldset_unbordered">
+				<span class="input">
+					<label>E-mail:*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="kuklachev@gmail.com">
+						<span class="input__icon input__icon_mail"></span>
+					</span>	
+				</span>
+
+				<span class="input">
+					<label>Телефон:*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="8 (960) 900-60-90">
+						<span class="input__icon input__icon_phone"></span>
+					</span>	
+				</span>
+			</fieldset>
+
+			<div class="form__heading">
+				<h3 class="heading heading_size_m">Комментарий</h3>
+				<div class="form__greenline"></div>
 			</div>
-			<div class="form__group">			
-				<label>
-					<span class="form__indicator form__indicator_radio"></span>
-					<input class="input input_radio" type="radio" name="purpose" value="dontknow">
-					Не знаю (Нужен ваш совет)
-				</label>
+
+			<fieldset class="form__fieldset form__fieldset_unbordered">
+				<textarea class="textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
+			</fieldset>
+
+			<div class="form__heading">
+				<h3 class="heading heading_size_m">Дополнительно</h3>
+				<div class="form__greenline"></div>
 			</div>
-			
-			<hr class="separator">
-			
+
+			<fieldset class="form__fieldset">	
+				<span class="checkbox-group">		
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="sweetener" checked>
+						</span>
+						<span class="checkbox__text">
+							Сахарозаменитель
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="water">
+						</span>
+						<span class="checkbox__text">
+							Питьевая вода
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="milk">
+						</span>
+						<span class="checkbox__text">
+							Молоко
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="vitamins">
+						</span>
+						<span class="checkbox__text">
+							Витамины
+						</span>	
+					</label>
+				</span>
+				<button class="button button_size_m">
+					<span class="button__text">
+						Я отправляю данные
+					</span>
+				</button>
+				<div class="simpletext simpletext_size_m simpletext_align_center">* — Обязательные поля</div>
+			</fieldset>
 		</form>
-	</main><!-- /.maincontent -->
+	</main>
 		
 	<footer class="footer">
 		<div class="address">
 			<h3 class="heading heading_size_s">Приглашаем к сотрудничеству дилеров!</h3>
-			<div class="simpletext_size_m">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+			<div class="simpletext simpletext_size_m">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
 		</div><!-- /.address -->
 
 		<div class="map">
@@ -118,7 +196,7 @@
 		</div><!-- /.social -->
 
 		<div class="copyright">
-			<div class="simpletext_size_l">
+			<div class="simpletext simpletext_size_l">
 				HTML Academy
 			</div>
 			<a href="#" title="HTMLAcademy">

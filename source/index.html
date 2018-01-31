@@ -4,12 +4,12 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Кэт энерджи</title>
 </head>
-<body>
+<body class="page">
 	<header class="header">
 		<a href="#" class="logo">
 			<img src="http://placehold.it/33x38" alt="Cat Energy">
 		</a>
-		<a href="#" class="sitename_size_m">Cat Energy</a>
+		<a href="#" class="sitename sitename_size_m">Cat Energy</a>
 		<a href="#" class="header__burger">
 			<img src="http://placehold.it/24x18" alt="Open menu">
 		</a>
@@ -30,8 +30,8 @@
 		</ul><!-- /.menu -->
 	</header><!-- /.header -->
 
-	<main class="maincontent">
-		<div class="banner">
+	<main>
+		<section class="banner">
 			<div class="banner__catcontainer">
 				<h1 class="banner__title heading heading_size_l">Функциональное питание для котов</h1>
 				<div class="banner__subtitle heading heading_size_xs">Занялся собой? Займись котом!</div>
@@ -39,10 +39,14 @@
 			<div class="banner__foodimage">
 				<img src="http://placehold.it/280x270" alt="Cat Energy">
 			</div>
-			<a href="#" class="banner__button">Подобрать программу</a>
-		</div><!-- /.banner -->
+			<a href="#" class="button button_size_s">
+				<span class="button__text">
+					Подобрать программу
+				</span>
+			</a>
+		</section><!-- /.banner -->
 
-		<div class="programs">
+		<section class="programs">
 			<div class="program">
 				<div class="program__title">
 					<div class="program__icon">
@@ -50,7 +54,7 @@
 					</div>
 					<h3 class="heading heading_size_m">Похудение</h3>					
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
 				</div>
 				<a href="#" class="program__link">Каталог Slim</a>
@@ -63,20 +67,20 @@
 					</div>
 					<h3 class="heading heading_size_m">Набор массы</h3>					
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
 				</div>
 				<a href="#" class="program__link">Каталог Slim</a>
 			</div><!-- /.program -->
-		</div><!-- /.programs -->
+		</section><!-- /.programs -->
 
-		<div class="howitworks">
+		<section class="howitworks">
 			<h2 class="heading heading_size_l">Как это работает</h2>
 			<div class="howitworks__item">
 				<div class="howitworks__icon">
 					<img src="http://placehold.it/26x29" alt="Только полезные вещества">
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Функциональное питание содержит только полезные питательные вещества.
 				</div>
 			</div><!-- /.howitworks__item -->
@@ -84,7 +88,7 @@
 				<div class="howitworks__icon">
 					<img src="http://placehold.it/29x31" alt="Выпускается в виде порошка">
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
 				</div>
 			</div><!-- /.howitworks__item -->
@@ -92,7 +96,7 @@
 				<div class="howitworks__icon">
 					<img src="http://placehold.it/23x30" alt="Замените приемы обычной еды">
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Замените один-два приема обычной еды на наше фунцкциональное питание.
 				</div>
 			</div><!-- /.howitworks__item -->
@@ -100,25 +104,25 @@
 				<div class="howitworks__icon">
 					<img src="http://placehold.it/26x31" alt="Наслаждайтесь изменениями">
 				</div>
-				<div class="simpletext_size_m">
+				<div class="simpletext simpletext_size_m">
 					Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
 				</div>
 			</div><!-- /.howitworks__item -->
-		</div><!-- /.howitworks -->
+		</section><!-- /.howitworks -->
 
-		<div class="example">
+		<section class="example">
 			<h2 class="heading heading_size_l">Живой пример</h2>
-			<div class="simpletext_size_m">
+			<div class="simpletext simpletext_size_m">
 				Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. 
 			</div>
 			<div class="example__profits">
 				<div class="example__profit">
 					<h3 class="heading heading_size_m">5 кг</h3>
-					<div class="simpletext_size_s">снижение веса</div>
+					<div class="simpletext simpletext_size_s">снижение веса</div>
 				</div>
 				<div class="example__profit">
 					<h3 class="heading heading_size_m">60 дней</h3>
-					<div class="simpletext_size_s">затрачено времени</div>
+					<div class="simpletext simpletext_size_s">затрачено времени</div>
 				</div>
 				<h4 class="heading heading_size_m">Затраты на питание: 15 000 руб.</h4>
 			</div><!-- /.profits -->
@@ -135,13 +139,13 @@
 					<h4 class="heading heading_size_s">Стало</h4>
 				</div><!-- /.toggler -->
 			</div><!-- /.example__cat -->
-		</div><!-- /.example -->
-	</main><!-- /.main -->
+		</section><!-- /.example -->
+	</main>
 		
 	<footer class="footer">
 		<div class="address">
 			<h3 class="heading heading_size_s">Приглашаем к сотрудничеству дилеров!</h3>
-			<div class="simpletext_size_m">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+			<div class="simpletext simpletext_size_m">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
 		</div><!-- /.address -->
 
 		<div class="map">
@@ -162,7 +166,7 @@
 		</div><!-- /.social -->
 
 		<div class="copyright">
-			<div class="simpletext_size_l">
+			<div class="simpletext simpletext_size_l">
 				HTML Academy
 			</div>
 			<a href="#" title="HTMLAcademy">
