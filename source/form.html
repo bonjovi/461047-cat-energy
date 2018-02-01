@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Academy: Кэт энерджи</title>
+</head>
+<body class="page">
+	<header class="header">
+		<a href="#" class="logo">
+			<img src="http://placehold.it/33x38" alt="Cat Energy">
+		</a>
+		<a href="#" class="sitename sitename_size_m">Cat Energy</a>
+		<a href="#" class="header__burger">
+			<img src="http://placehold.it/24x18" alt="Open menu">
+		</a>
+		<a href="#" class="header__closemenu">
+			<img src="http://placehold.it/18x18" alt="Close menu">
+		</a>
+
+		<ul class="menu">
+			<li class="menu__item">
+				<a href="index.html" class="menu__link">Главная</a>
+			</li>
+			<li class="menu__item">
+				<a href="catalog.html" class="menu__link">Каталог продукции</a>
+			</li>
+			<li class="menu__item">
+				<a href="#" class="menu__link">Подбор программы</a>
+			</li>
+		</ul><!-- /.menu -->
+	</header><!-- /.header -->
+
+	<main>
+		<div class="page__wrapper">
+			<h1 class="heading heading_size_l">Подбор программы</h1>
+			<h4 class="heading heading_size_xs">Заполните анкету и мы подберем программу питания для вашего кота</h4>
+		</div>
+		<form action="#" class="form">
+			<fieldset class="form__fieldset">
+				<span class="input">
+					<label>Имя:*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="Барсик">
+					</span>	
+				</span>
+					
+				<span class="input">
+					<label>Вес (кг):*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="7">
+					</span>	
+				</span>
+				
+				<span class="input">
+					<label>Возраст (лет):</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="7">
+					</span>	
+				</span>
+			</fieldset>
+
+			<fieldset class="form__fieldset">	
+				<span class="radio-group">		
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="slimming">
+						</span>
+						<span class="radio__text">
+							Похудение
+						</span>	
+					</label>
+
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="gain">
+						</span>
+						<span class="radio__text">
+							Набор массы
+						</span>	
+					</label>
+
+					<label class="radio">
+						<span class="radio__box">
+							<input class="radio__control" type="radio" name="purpose" value="dontknow">
+						</span>
+						<span class="radio__text">
+							Не знаю (Нужен ваш совет)
+						</span>	
+					</label>
+				</span>
+			</fieldset>
+
+			<div class="lineheading">
+				<h3 class="heading heading_size_m">Контактные данные (владельца кота)</h3>
+				<div class="lineheading__greenline"></div>
+			</div>
+
+			<fieldset class="form__fieldset form__fieldset_unbordered">
+				<span class="input">
+					<label>E-mail:*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="kuklachev@gmail.com">
+						<span class="input__icon input__icon_mail"></span>
+					</span>	
+				</span>
+
+				<span class="input">
+					<label>Телефон:*</label>
+					<span class="input__box">
+						<input class="input__control" type="text" placeholder="8 (960) 900-60-90">
+						<span class="input__icon input__icon_phone"></span>
+					</span>	
+				</span>
+			</fieldset>
+
+			<div class="lineheading">
+				<h3 class="heading heading_size_m">Комментарий</h3>
+				<div class="lineheading__greenline"></div>
+			</div>
+
+			<fieldset class="form__fieldset form__fieldset_unbordered">
+				<textarea class="textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
+			</fieldset>
+
+			<div class="lineheading">
+				<h3 class="heading heading_size_m">Дополнительно</h3>
+				<div class="lineheading__greenline"></div>
+			</div>
+
+			<fieldset class="form__fieldset">	
+				<span class="checkbox-group">		
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="sweetener" checked>
+						</span>
+						<span class="checkbox__text">
+							Сахарозаменитель
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="water">
+						</span>
+						<span class="checkbox__text">
+							Питьевая вода
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="milk">
+						</span>
+						<span class="checkbox__text">
+							Молоко
+						</span>	
+					</label>
+					<label class="checkbox">
+						<span class="checkbox__box">
+							<input class="checkbox__control" type="checkbox" name="vitamins">
+						</span>
+						<span class="checkbox__text">
+							Витамины
+						</span>	
+					</label>
+				</span>
+				<button class="button button_size_m">
+					<span class="button__text">
+						Я отправляю данные
+					</span>
+				</button>
+				<div class="simpletext simpletext_size_m simpletext_align_center">* — Обязательные поля</div>
+			</fieldset>
+		</form>
+	</main>
+		
+	<footer class="footer">
+		<address class="address">
+			<h3 class="heading heading_size_s">Приглашаем к сотрудничеству дилеров!</h3>
+			<div class="simpletext simpletext_size_m">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+		</address><!-- /.address -->
+
+		<div class="map">
+			<iframe src="https://yandex.ru/map-widget/v1/-/CBeeMBwTPB" width="100%" height="360" frameborder="0"></iframe>
+		</div><!-- /.map -->
+	
+		<a href="#" class="sitename sitename_size_l">Cat Energy</a>
+		<div class="social">
+			<a href="#" title="Vk">
+				<img src="http://placehold.it/22x12" alt="Vk">
+			</a>
+			<a href="#" title="Instagram">
+				<img src="http://placehold.it/16x16" alt="Instagram">
+			</a>
+			<a href="#" title="Facebook">
+				<img src="http://placehold.it/10x19" alt="Facebook">
+			</a>
+		</div><!-- /.social -->
+
+		<div class="copyright">
+			<div class="simpletext simpletext_size_l">
+				HTML Academy
+			</div>
+			<a href="#" title="HTMLAcademy">
+				<img src="http://placehold.it/27x34" alt="HTMLAcademy">
+			</a>
+		</div><!-- /.copyright -->
+	</footer><!-- /.footer -->
+	
+</body>
+</html>
