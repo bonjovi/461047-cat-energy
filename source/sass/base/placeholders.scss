@@ -1,17 +1,29 @@
 input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder
-{font-family: 'Oswald Regular'; font-size: 1rem; color: $white;}
+textarea::-webkit-input-placeholder {
+	font-family: 'Oswald Regular';
+	font-size: 1rem;
+	color: $white;
+}
 
 input::-moz-placeholder,
-textarea::-moz-placeholder          
-{font-family: 'Oswald Regular'; font-size: 1rem; color: $white;}
+textarea::-moz-placeholder {
+	font-family: 'Oswald Regular';
+	font-size: 1rem;
+	color: $white;
+}
 
 /* Firefox 19+ */
 input:-moz-placeholder,
-textarea:-moz-placeholder          
-{font-family: 'Oswald Regular'; font-size: 1rem; color: $white;}
+textarea:-moz-placeholder {
+	font-family: 'Oswald Regular';
+	font-size: 1rem;
+	color: $white;
+}
 
 /* Firefox 18- */
 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder      
-{font-family: 'Oswald Regular'; font-size: 1rem; color: $white;}
+textarea:-ms-input-placeholder {
+	font-family: 'Oswald Regular';
+	font-size: 1rem;
+	color: $white;
+}

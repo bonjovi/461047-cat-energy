@@ -3,6 +3,11 @@
 
   "rules": {
     "declaration-no-important": true,
-    "indentation": [2, {"ignore": ["inside-parens"]}]
+    "indentation": ["tab", {"ignore": ["inside-parens"]}],
+    "string-quotes": "single",
+    "font-family-name-quotes": "always-unless-keyword",
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-missing-end-of-source-newline": null,
+    "no-empty-source": null
   }
 }
