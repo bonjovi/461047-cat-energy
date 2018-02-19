@@ -1,3 +1,7 @@
-body {
-	background: green;
-}
+@import 'vendors/normalize';
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/placeholders';
+@import 'vendors/normalize';
+@import 'base/base';
+@import 'blocks';

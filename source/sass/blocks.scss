@@ -1,0 +1,107 @@
+.additional {
+	padding: 20px;
+}
+
+.banner {
+	padding: 20px;
+}
+.button {
+	background-color: $green;
+
+	&__text {
+		color: $white;
+	}
+}
+.catalog {
+	padding: 20px;
+}
+
+
+
+.example {
+	padding: 20px;
+	background-color: $lightgrey;
+}
+.footer {
+	background-color: $lightgrey;
+	padding: 20px;
+}
+.form {
+	padding: 20px;
+}
+.giftbanner {
+	padding: 20px;
+}
+.header {
+	color: black;
+	padding: 20px;
+}
+.heading {
+	font-family: 'Oswald Regular';
+
+	&_size_xs {
+		font-size: 14px;
+	}
+	
+	&_size_s {
+		font-size: 16px;
+	}
+
+	&_size_m {
+		font-size: 24px;
+	}
+
+	&_size_l {
+		font-size: 36px;
+	}
+}
+.howitworks {
+	padding: 20px;
+	&__icon {
+		background-color: $green;
+	}
+}
+
+
+
+
+
+
+
+.more {
+	padding: 20px;
+}
+.page {
+	&__wrapper {
+		padding: 20px;
+	}
+}
+
+.program {
+	background-color: $lightgrey;
+}
+.programs {
+	padding: 20px;
+}
+
+
+
+.simpletext {
+
+	line-height: 18px;
+
+	&_size_s {
+		font-size: 12px;
+	}
+
+	&_size_m {
+		font-size: 14px;
+	}
+
+	&_size_l {
+		font-size: 16px;	
+	}
+}
+
+
+

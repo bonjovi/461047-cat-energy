@@ -10,6 +10,7 @@
     "gulp-plumber": "1.2.x",
     "gulp-postcss": "7.0.x",
     "gulp-sass": "3.1.x",
+    "gulp-concat": "^2.6.1",
     "@htmlacademy/editorconfig-cli": "1.x",
     "stylelint": "8.4.x",
     "stylelint-config-htmlacademy": "0.1.x"
@@ -19,6 +20,7 @@
     "stylelint": "stylelint 'source/sass/**/*.scss' --syntax scss",
     "test": "npm run editorconfig && npm run stylelint",
     "build": "gulp style",
+    "blocks": "gulp blocks",
     "start": "gulp serve"
   },
   "browserslist": [

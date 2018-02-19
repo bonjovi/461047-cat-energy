@@ -5,7 +5,15 @@ var sass = require("gulp-sass");
 var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
+var concatcss = require('gulp-concat');
 var server = require("browser-sync").create();
+
+gulp.task('blocks', function() {
+    return gulp.src('source/sass/blocks/**/*.scss')
+      .pipe(concatcss("blocks.scss"))
+      .pipe(plumber())
+      .pipe(gulp.dest('source/sass/'));
+});
 
 gulp.task("style", function() {
   gulp.src("source/sass/style.scss")
@@ -27,6 +35,6 @@ gulp.task("serve", ["style"], function() {
     ui: false
   });
 
-  gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
+  gulp.watch("source/sass/**/*.{scss,sass}", ["blocks","style"]);
   gulp.watch("source/*.html").on("change", server.reload);
 });
